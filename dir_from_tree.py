@@ -1,12 +1,13 @@
 """
+This script reads the tree-like directory structure from the file and directly creates the corresponding directories and files in the filesystem.
+
 How to Use the Script:
-1. Save the above Python code to a file, for example, create_structure_from_tree.py.
+1. Save the Python code to a file, for example, create_structure_from_tree.py.
 2. Create your tree structure file (structure.txt) with the desired directory and file paths.
 3. Run the script using Python:
     python create_structure_from_tree.py
 4. Input the path to the structure file when prompted.
 
-This script reads the tree-like directory structure from the file and directly creates the corresponding directories and files in the filesystem.
 """
 
 import os
